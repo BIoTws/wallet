@@ -1,7 +1,10 @@
 import React from 'react';
+import { Menu } from './../components'
 
 const Recive = () => {
-    return <div> Recive page </div>
+    return <>
+        <Menu />
+        <div> Recive page </div></>
 }
 
 export default Recive;

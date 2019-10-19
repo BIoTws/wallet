@@ -1,7 +1,10 @@
 import React from 'react';
-
+import { Menu } from './../components'
 const Main = () => {
-    return <div> Main page </ div>
+    return <>
+        <Menu />
+        <div>Main page</div>
+    </>
 }
 
 export default Main;
